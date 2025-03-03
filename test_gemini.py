@@ -42,4 +42,4 @@ def analyzuj_subory(priecinok, vystupny_subor):
                 vystup, pocet_chyb, cas_vykonania = spust_analyzu(subor_cesta, 'mypy')
                 writer.writerow([subor, 'Mypy', cas_vykonania, pocet_chyb, vystup])
 
-analyzuj_subory('gemini', 'vysledky_analyzy.csv')
+analyzuj_subory('gemini', 'vysledky_analyzy_gemini.csv')
