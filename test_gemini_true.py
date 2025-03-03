@@ -20,7 +20,7 @@ def spust_analyzu(subor, nastroj):
 def analyzuj_subory(priecinok, vystupny_subor):
     with open(vystupny_subor, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['Subor', 'Nastroj', 'Cas_vykonania', 'Pocet_chyb', 'Vystup'])
+        writer.writerow(['subor', 'nastroj', 'cas_vykonania', 'pocet_chyb', 'vystup'])
 
         for subor in os.listdir(priecinok):
             if subor.endswith(".py"):
