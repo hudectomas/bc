@@ -1,0 +1,290 @@
+subor,nastroj,cas_vykonania,pocet_chyb,vystup
+01.py,Pylint,0.7416722774505615,11,"************* Module 01
+gemini_true/01.py:16:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/01.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/01.py:1:0: C0103: Module name ""01"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/01.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/01.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/01.py:9:0: C0103: Constant name ""vysledok1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+"
+01.py,Pyflakes,0.10055136680603027,0,
+01.py,Flake8,0.21090173721313477,3,"gemini_true/01.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/01.py:9:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/01.py:16:15: W292 no newline at end of file
+"
+01.py,Mypy,1.307713270187378,1,"Success: no issues found in 1 source file
+"
+02.py,Pylint,0.5603072643280029,12,"************* Module 02
+gemini_true/02.py:16:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/02.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/02.py:1:0: C0103: Module name ""02"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/02.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/02.py:1:13: W0621: Redefining name 'cislo' from outer scope (line 14) (redefined-outer-name)
+gemini_true/02.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/02.py:4:22: W0621: Redefining name 'cislo' from outer scope (line 14) (redefined-outer-name)
+
+------------------------------------------------------------------
+Your code has been rated at 4.17/10 (previous run: 4.17/10, +0.00)
+
+"
+02.py,Pyflakes,0.08833050727844238,0,
+02.py,Flake8,0.18405532836914062,3,"gemini_true/02.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/02.py:7:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/02.py:16:21: W292 no newline at end of file
+"
+02.py,Mypy,0.24647045135498047,1,"Success: no issues found in 1 source file
+"
+03.py,Pylint,0.49814558029174805,13,"************* Module 03
+gemini_true/03.py:17:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/03.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/03.py:1:0: C0103: Module name ""03"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/03.py:4:4: C0103: Constant name ""hodnota1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/03.py:6:4: C0103: Constant name ""hodnota1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/03.py:9:4: C0103: Constant name ""hodnota2"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/03.py:11:4: C0103: Constant name ""hodnota2"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/03.py:16:0: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+
+------------------------------------------------------------------
+Your code has been rated at 2.73/10 (previous run: 2.73/10, +0.00)
+
+"
+03.py,Pyflakes,0.08778572082519531,0,
+03.py,Flake8,0.17768502235412598,1,"gemini_true/03.py:17:26: W292 no newline at end of file
+"
+03.py,Mypy,0.24803829193115234,3,"gemini_true/03.py:6: error: Incompatible types in assignment (expression has type ""None"", variable has type ""int"")  [assignment]
+gemini_true/03.py:11: error: Incompatible types in assignment (expression has type ""None"", variable has type ""int"")  [assignment]
+Found 2 errors in 1 file (checked 1 source file)
+"
+04.py,Pylint,0.49928927421569824,10,"************* Module 04
+gemini_true/04.py:14:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/04.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/04.py:1:0: C0103: Module name ""04"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/04.py:1:0: C0103: Constant name ""a"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/04.py:2:0: C0103: Constant name ""b"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+"
+04.py,Pyflakes,0.08797073364257812,0,
+04.py,Flake8,0.17778849601745605,2,"gemini_true/04.py:14:9: E261 at least two spaces before inline comment
+gemini_true/04.py:14:72: W292 no newline at end of file
+"
+04.py,Mypy,0.24396920204162598,1,"Success: no issues found in 1 source file
+"
+05.py,Pylint,0.5598266124725342,12,"************* Module 05
+gemini_true/05.py:19:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/05.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/05.py:1:0: C0103: Module name ""05"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/05.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/05.py:3:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+gemini_true/05.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/05.py:9:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+
+------------------------------------------------------------------
+Your code has been rated at 5.33/10 (previous run: 5.33/10, +0.00)
+
+"
+05.py,Pyflakes,0.08823943138122559,0,
+05.py,Flake8,0.1885843276977539,3,"gemini_true/05.py:8:1: E302 expected 2 blank lines, found 1
+gemini_true/05.py:12:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/05.py:19:54: W292 no newline at end of file
+"
+05.py,Mypy,0.2646474838256836,1,"Success: no issues found in 1 source file
+"
+06.py,Pylint,0.5317654609680176,9,"************* Module 06
+gemini_true/06.py:14:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/06.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/06.py:1:0: C0103: Module name ""06"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/06.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.36/10 (previous run: 6.36/10, +0.00)
+
+"
+06.py,Pyflakes,0.08907938003540039,0,
+06.py,Flake8,0.20553827285766602,2,"gemini_true/06.py:6:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/06.py:14:34: W292 no newline at end of file
+"
+06.py,Mypy,0.24972772598266602,1,"Success: no issues found in 1 source file
+"
+07.py,Pylint,0.530771017074585,9,"************* Module 07
+gemini_true/07.py:18:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/07.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/07.py:1:0: C0103: Module name ""07"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/07.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+"
+07.py,Pyflakes,0.08974027633666992,0,
+07.py,Flake8,0.18262648582458496,4,"gemini_true/07.py:3:1: E302 expected 2 blank lines, found 1
+gemini_true/07.py:4:37: E225 missing whitespace around operator
+gemini_true/07.py:11:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/07.py:18:28: W292 no newline at end of file
+"
+07.py,Mypy,0.24819421768188477,1,"Success: no issues found in 1 source file
+"
+08.py,Pylint,0.5171499252319336,10,"************* Module 08
+gemini_true/08.py:14:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/08.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/08.py:1:0: C0103: Module name ""08"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/08.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/08.py:2:4: R1705: Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it (no-else-return)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 5.00/10, +0.00)
+
+"
+08.py,Pyflakes,0.09025430679321289,0,
+08.py,Flake8,0.18012118339538574,2,"gemini_true/08.py:7:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/08.py:14:37: W292 no newline at end of file
+"
+08.py,Mypy,0.2511880397796631,1,"Success: no issues found in 1 source file
+"
+09.py,Pylint,0.5134773254394531,10,"************* Module 09
+gemini_true/09.py:14:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/09.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/09.py:1:0: C0103: Module name ""09"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/09.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/09.py:6:0: C0103: Constant name ""definovana_premenna"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.45/10 (previous run: 5.45/10, +0.00)
+
+"
+09.py,Pyflakes,0.09001612663269043,0,
+09.py,Flake8,0.18229341506958008,2,"gemini_true/09.py:6:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/09.py:14:15: W292 no newline at end of file
+"
+09.py,Mypy,0.24486780166625977,1,"Success: no issues found in 1 source file
+"
+10.py,Pylint,0.5584051609039307,10,"************* Module 10
+gemini_true/10.py:18:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/10.py:1:0: C0103: Module name ""10"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/10.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/10.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.15/10 (previous run: 6.15/10, +0.00)
+
+"
+10.py,Pyflakes,0.09132599830627441,0,
+10.py,Flake8,0.1788651943206787,4,"gemini_true/10.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/10.py:7:1: E302 expected 2 blank lines, found 1
+gemini_true/10.py:10:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/10.py:18:27: W292 no newline at end of file
+"
+10.py,Mypy,0.36239123344421387,1,"Success: no issues found in 1 source file
+"
+11.py,Pylint,0.5231072902679443,12,"************* Module 11
+gemini_true/11.py:22:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/11.py:1:0: C0103: Module name ""11"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/11.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/11.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/11.py:4:22: W0621: Redefining name 'zoznam' from outer scope (line 10) (redefined-outer-name)
+gemini_true/11.py:9:0: C0103: Constant name ""vysledok1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.88/10 (previous run: 5.88/10, +0.00)
+
+"
+11.py,Pyflakes,0.09472894668579102,0,
+11.py,Flake8,0.18221759796142578,3,"gemini_true/11.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/11.py:9:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/11.py:22:20: W292 no newline at end of file
+"
+11.py,Mypy,0.2532625198364258,1,"Success: no issues found in 1 source file
+"
+12.py,Pylint,0.5098540782928467,14,"************* Module 12
+gemini_true/12.py:21:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/12.py:1:0: C0103: Module name ""12"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/12.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/12.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/12.py:6:0: R0913: Too many arguments (10/5) (too-many-arguments)
+gemini_true/12.py:6:0: R0917: Too many positional arguments (10/5) (too-many-positional-arguments)
+gemini_true/12.py:9:0: C0103: Constant name ""vysledok1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/12.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 4.00/10 (previous run: 4.00/10, +0.00)
+
+"
+12.py,Pyflakes,0.08957028388977051,0,
+12.py,Flake8,0.1803436279296875,5,"gemini_true/12.py:6:1: E302 expected 2 blank lines, found 1
+gemini_true/12.py:9:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/12.py:11:1: E302 expected 2 blank lines, found 1
+gemini_true/12.py:15:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/12.py:21:15: W292 no newline at end of file
+"
+12.py,Mypy,0.251483678817749,1,"Success: no issues found in 1 source file
+"
+13.py,Pylint,0.5003218650817871,10,"************* Module 13
+gemini_true/13.py:14:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/13.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/13.py:1:0: C0103: Module name ""13"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/13.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/13.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.45/10 (previous run: 5.45/10, +0.00)
+
+"
+13.py,Pyflakes,0.08865547180175781,0,
+13.py,Flake8,0.18019461631774902,3,"gemini_true/13.py:5:1: E302 expected 2 blank lines, found 1
+gemini_true/13.py:9:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/13.py:14:17: W292 no newline at end of file
+"
+13.py,Mypy,0.25011539459228516,1,"Success: no issues found in 1 source file
+"
+14.py,Pylint,0.5153810977935791,15,"************* Module 14
+gemini_true/14.py:21:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/14.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/14.py:1:0: C0103: Module name ""14"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/14.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/14.py:1:0: R0913: Too many arguments (10/5) (too-many-arguments)
+gemini_true/14.py:1:0: R0917: Too many positional arguments (10/5) (too-many-positional-arguments)
+gemini_true/14.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/14.py:6:8: R1705: Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it (no-else-return)
+gemini_true/14.py:13:0: C0103: Constant name ""vysledok1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+gemini_true/14.py:14:0: C0103: Constant name ""vysledok2"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 3.33/10 (previous run: 3.33/10, +0.00)
+
+"
+14.py,Pyflakes,0.09031796455383301,0,
+14.py,Flake8,0.18229222297668457,3,"gemini_true/14.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/14.py:13:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/14.py:21:40: W292 no newline at end of file
+"
+14.py,Mypy,0.25052499771118164,1,"Success: no issues found in 1 source file
+"
+15.py,Pylint,0.5121970176696777,12,"************* Module 15
+gemini_true/15.py:21:0: C0304: Final newline missing (missing-final-newline)
+gemini_true/15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+gemini_true/15.py:1:0: C0103: Module name ""15"" doesn't conform to snake_case naming style (invalid-name)
+gemini_true/15.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/15.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+gemini_true/15.py:4:22: W0621: Redefining name 'zoznam' from outer scope (line 10) (redefined-outer-name)
+gemini_true/15.py:9:0: C0103: Constant name ""vysledok1"" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 5.62/10 (previous run: 5.62/10, +0.00)
+
+"
+15.py,Pyflakes,0.08964109420776367,0,
+15.py,Flake8,0.1834869384765625,3,"gemini_true/15.py:4:1: E302 expected 2 blank lines, found 1
+gemini_true/15.py:9:1: E305 expected 2 blank lines after class or function definition, found 1
+gemini_true/15.py:21:20: W292 no newline at end of file
+"
+15.py,Mypy,0.24970555305480957,1,"Success: no issues found in 1 source file
+"
