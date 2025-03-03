@@ -1,9 +1,19 @@
-# Chyby špecifické pre Pyflakes
-def pyflakes_test():
-    unused_var = 42  # Pyflakes upozorní na nepoužitú premennú
+# Program so špecifickými chybami pre Pyflakes
 
-    # Chýbajúca funkcia
-    print_message("Toto je správa")  # Pyflakes nájde nedefinovanú funkciu
+def pyflakes_errors():
+    try:
+        # Chyba 1: Import, ktorý sa nepoužíva
+        import sys
+        
+        # Chyba 2: Nedefinovaná premenná
+        print(neexistujuca_premenna)
+        
+        # Chyba 3: Redefinícia premennej
+        a = 10
+        a = "text"
+        
+    except Exception as e:
+        print("Neočakávaná chyba:", e)
 
 if __name__ == "__main__":
-    pyflakes_test()
+    pyflakes_errors()

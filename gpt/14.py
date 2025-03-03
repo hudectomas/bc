@@ -1,13 +1,18 @@
-#Chyby špecifické pre Flake8
-def flake8_test():
-    # Dlhý riadok (Flake8 E501)
-    message = "Toto je extrémne dlhý riadok, ktorý presahuje odporúčaný limit 79 znakov podľa PEP 8, čo spôsobí chybu vo Flake8."
+# Program so špecifickými chybami pre Flake8
 
-    # Nejednotné odsadenie (Flake8 E101)
-      x = 5
-    y = 10
-
-    return x + y
+def flake8_errors():
+    try:
+        # Chyba 1: Zbytočné medzery
+        a  =  10
+        
+        # Chyba 2: Chýbajúci prázdny riadok
+        def func():print("Zle naformátovaná funkcia")
+        
+        # Chyba 3: Dlhý riadok
+        print("Tento riadok je extrémne dlhý a prekračuje maximálnu odporúčanú dĺžku znakov, čo spôsobí problém vo Flake8.")
+        
+    except Exception as e:
+        print("Neočakávaná chyba:", e)
 
 if __name__ == "__main__":
-    flake8_test()
+    flake8_errors()
