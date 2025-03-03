@@ -1,32 +1,59 @@
-def greet(name, age):
-    print(f"Hello, {name}! You are {age} years old.")
+# Neefektívne logické výrazy - dlhší program s viacerými chybami
 
-def add_numbers(a, b):
-    return a + b
+def check_conditions(a, b, c):
+    # Chyba 1: Zbytočná podmienka
+    if a == True:
+        print("a je True")
 
-def is_valid_number(num):
-    # Neefektívny logický výraz
-    if num >= 0 or num < 0:
+    # Chyba 2: Duplicitné kontroly
+    if b > 0 or b > 0:
+        print("b je kladné číslo")
+
+    # Chyba 3: Zbytočné porovnanie s None
+    if c is not None:
+        if c is not None:
+            print("c nie je None")
+
+    # Chyba 4: Neefektívna negácia
+    if not (a == False):
+        print("a nie je False")
+
+    # Chyba 5: Nadbytočná kontrola
+    if a or True:
+        print("Táto podmienka je vždy True")
+
+
+def redundant_logic(x, y):
+    # Chyba 6: Neefektívna podmienka
+    if x and x:
+        print("x je pravdivé")
+
+    # Chyba 7: Zbytočná logická operácia
+    if (y and True) or False:
+        print("y je pravdivé")
+
+    # Chyba 8: Redundantné vetvy
+    if x:
+        print("x je pravda")
+    else:
+        if not x:
+            print("x je nepravda")
+
+    # Chyba 9: Opakované porovnanie
+    if y == 5 or y == 5:
+        print("y je 5")
+
+    # Chyba 10: Zbytočný návrat
+    if x:
         return True
-    return False
+    else:
+        return False
+
 
 def main():
-    # Nesprávny počet argumentov (chýba jeden argument)
-    greet("Alice")
-
-    # Príliš veľa argumentov
-    greet("Bob", 25, "extra")
-
-    # Volanie funkcie s nesprávnym počtom argumentov
-    result = add_numbers(5)
-    print(f"Sum: {result}")
-
-    # Správne volanie funkcie
-    valid_result = add_numbers(3, 7)
-    print(f"Valid sum: {valid_result}")
-
-    # Neefektívny logický výraz
-    print("Is 5 a valid number?:", is_valid_number(5))
+    # Testovanie neefektívnych logických výrazov
+    check_conditions(True, 10, None)
+    redundant_logic(False, 5)
 
 if __name__ == "__main__":
     main()

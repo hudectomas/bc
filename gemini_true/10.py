@@ -1,0 +1,18 @@
+import math
+import random
+
+def vypocitaj_sinus(x):
+    return math.sin(x)
+
+def generuj_nahodne_cislo():
+    return random.randint(1, 100)
+
+vysledok_sinus = vypocitaj_sinus(math.pi / 2)
+nahodne_cislo = generuj_nahodne_cislo()
+
+print(vysledok_sinus)
+print(nahodne_cislo)
+
+dlhy_zoznam = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+for cislo in dlhy_zoznam:
+    print(math.cos(cislo))

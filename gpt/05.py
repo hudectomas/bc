@@ -1,38 +1,50 @@
+# Manipulácia so súbormi - dlhší program s viacerými chybami
+
 def file_operations():
-    # Manipulácia so súbormi
+    # Chyba 1: Otvorenie neexistujúceho súboru na čítanie
     try:
-        file = open("example.txt", "r")
+        file = open("nonexistent.txt", "r")
         content = file.read()
-        print("Obsah súboru:", content)
-        
-        # Pokus o zápis do súboru otvoreného len na čítanie
-        file.write("Pokus o zápis do súboru iba na čítanie.")
-    
-    except IOError as e:
-        print("Chyba pri operácii so súborom:", e)
-    
+        print(content)
+    except FileNotFoundError:
+        print("Chyba: Súbor nebol nájdený.")
     finally:
         file.close()
 
+    # Chyba 2: Zápis do súboru otvoreného len na čítanie
+    try:
+        file = open("example.txt", "r")
+        file.write("Tento zápis zlyhá.")
+    except IOError:
+        print("Chyba: Nie je možné zapisovať do súboru.")
+    finally:
+        file.close()
 
-def csv_operations():
-    # Pokus o načítanie neexistujúceho CSV súboru
+    # Chyba 3: Zatvorenie súboru, ktorý už bol zatvorený
+    file = open("example.txt", "w")
+    file.close()
+    file.close()
+
+    # Chyba 4: Použitie súboru po jeho zatvorení
+    try:
+        file.write("Pokus o zápis po zatvorení súboru.")
+    except ValueError:
+        print("Chyba: Pokus o prácu so zatvoreným súborom.")
+
+    # Chyba 5: Nesprávna manipulácia s CSV
+    import csv
     try:
         with open("data.csv", "r") as file:
-            lines = file.readlines()
-            for line in lines:
-                print(line.strip())
-    except FileNotFoundError:
-        print("Chyba: Súbor 'data.csv' neexistuje.")
-    except Exception as e:
-        print("Neočakávaná chyba pri práci s CSV súborom:", e)
+            reader = csv.reader(file)
+            for row in reader:
+                print(row[10])  # Prístup k neexistujúcemu stĺpcu
+    except IndexError:
+        print("Chyba: Prístup mimo rozsah stĺpcov CSV súboru.")
 
 
 def main():
+    # Testovanie chýb pri manipulácii so súbormi
     file_operations()
-    
-    # Testovanie manipulácie s neexistujúcim súborom
-    csv_operations()
 
 
 if __name__ == "__main__":
