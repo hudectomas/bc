@@ -26,7 +26,7 @@ gpt_true/01.py:35:0: C0116: Missing function or method docstring (missing-functi
 Your code has been rated at 4.00/10 (previous run: 0.00/10, +4.00)
 
 "
-01.py,pyflakes,0.13,0,
+01.py,pyflakes,0.12,0,
 01.py,flake8,0.21,19,"gpt_true/01.py:7:1: E302 expected 2 blank lines, found 1
 gpt_true/01.py:11:1: E302 expected 2 blank lines, found 1
 gpt_true/01.py:15:1: E302 expected 2 blank lines, found 1
@@ -47,7 +47,7 @@ gpt_true/01.py:57:23: W291 trailing whitespace
 gpt_true/01.py:59:27: W291 trailing whitespace
 gpt_true/01.py:61:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-01.py,mypy,0.27,1,"Success: no issues found in 1 source file
+01.py,mypy,0.26,1,"Success: no issues found in 1 source file
 "
 02.py,pylint,0.53,11,"************* Module 02
 gpt_true/02.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -62,11 +62,11 @@ Your code has been rated at 7.69/10 (previous run: 5.81/10, +1.89)
 
 "
 02.py,pyflakes,0.1,0,
-02.py,flake8,0.2,1,"gpt_true/02.py:52:1: E305 expected 2 blank lines after class or function definition, found 1
+02.py,flake8,0.21,1,"gpt_true/02.py:52:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-02.py,mypy,0.26,1,"Success: no issues found in 1 source file
+02.py,mypy,0.28,1,"Success: no issues found in 1 source file
 "
-03.py,pylint,0.54,11,"************* Module 03
+03.py,pylint,0.56,11,"************* Module 03
 gpt_true/03.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/03.py:1:0: C0103: Module name ""03"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/03.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -79,10 +79,10 @@ Your code has been rated at 8.64/10 (previous run: 7.92/10, +0.72)
 
 "
 03.py,pyflakes,0.11,0,
-03.py,flake8,0.21,0,
+03.py,flake8,0.2,0,
 03.py,mypy,0.27,1,"Success: no issues found in 1 source file
 "
-04.py,pylint,0.52,10,"************* Module 04
+04.py,pylint,0.51,10,"************* Module 04
 gpt_true/04.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/04.py:1:0: C0103: Module name ""04"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/04.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -90,14 +90,14 @@ gpt_true/04.py:28:0: C0116: Missing function or method docstring (missing-functi
 gpt_true/04.py:55:0: C0116: Missing function or method docstring (missing-function-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 8.44/10 (previous run: 5.00/10, +3.44)
+Your code has been rated at 8.44/10 (previous run: 8.44/10, +0.00)
 
 "
 04.py,pyflakes,0.11,0,
-04.py,flake8,0.2,0,
-04.py,mypy,0.28,1,"Success: no issues found in 1 source file
+04.py,flake8,0.22,0,
+04.py,mypy,0.27,1,"Success: no issues found in 1 source file
 "
-05.py,pylint,0.62,14,"************* Module 05
+05.py,pylint,0.61,14,"************* Module 05
 gpt_true/05.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/05.py:1:0: C0103: Module name ""05"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/05.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -112,12 +112,12 @@ gpt_true/05.py:50:0: C0116: Missing function or method docstring (missing-functi
 Your code has been rated at 7.63/10 (previous run: 6.36/10, +1.27)
 
 "
-05.py,pyflakes,0.1,0,
-05.py,flake8,0.19,1,"gpt_true/05.py:5:1: E302 expected 2 blank lines, found 1
+05.py,pyflakes,0.12,0,
+05.py,flake8,0.2,1,"gpt_true/05.py:5:1: E302 expected 2 blank lines, found 1
 "
 05.py,mypy,0.26,1,"Success: no issues found in 1 source file
 "
-06.py,pylint,0.51,14,"************* Module 06
+06.py,pylint,0.52,14,"************* Module 06
 gpt_true/06.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/06.py:1:0: C0103: Module name ""06"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/06.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -132,15 +132,15 @@ gpt_true/06.py:48:0: C0116: Missing function or method docstring (missing-functi
 Your code has been rated at 7.27/10 (previous run: 8.33/10, -1.06)
 
 "
-06.py,pyflakes,0.1,0,
-06.py,flake8,0.22,4,"gpt_true/06.py:10:1: E302 expected 2 blank lines, found 1
+06.py,pyflakes,0.12,0,
+06.py,flake8,0.2,4,"gpt_true/06.py:10:1: E302 expected 2 blank lines, found 1
 gpt_true/06.py:17:1: E302 expected 2 blank lines, found 1
 gpt_true/06.py:24:1: E302 expected 2 blank lines, found 1
 gpt_true/06.py:44:5: E731 do not assign a lambda expression, use a def
 "
 06.py,mypy,0.27,1,"Success: no issues found in 1 source file
 "
-07.py,pylint,0.54,11,"************* Module 07
+07.py,pylint,0.53,11,"************* Module 07
 gpt_true/07.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/07.py:1:0: C0103: Module name ""07"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/07.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -152,13 +152,13 @@ gpt_true/07.py:48:0: C0116: Missing function or method docstring (missing-functi
 Your code has been rated at 8.24/10 (previous run: 8.12/10, +0.11)
 
 "
-07.py,pyflakes,0.11,1,"gpt_true/07.py:23:9: local variable 'value' is assigned to but never used
+07.py,pyflakes,0.12,1,"gpt_true/07.py:23:9: local variable 'value' is assigned to but never used
 "
-07.py,flake8,0.21,1,"gpt_true/07.py:23:9: F841 local variable 'value' is assigned to but never used
+07.py,flake8,0.2,1,"gpt_true/07.py:23:9: F841 local variable 'value' is assigned to but never used
 "
 07.py,mypy,0.27,1,"Success: no issues found in 1 source file
 "
-08.py,pylint,0.54,14,"************* Module 08
+08.py,pylint,0.52,14,"************* Module 08
 gpt_true/08.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/08.py:1:0: C0103: Module name ""08"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/08.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -200,7 +200,7 @@ Your code has been rated at 7.67/10 (previous run: 0.00/10, +7.67)
 
 "
 09.py,pyflakes,0.11,0,
-09.py,flake8,0.21,9,"gpt_true/09.py:5:1: E302 expected 2 blank lines, found 1
+09.py,flake8,0.2,9,"gpt_true/09.py:5:1: E302 expected 2 blank lines, found 1
 gpt_true/09.py:9:1: E302 expected 2 blank lines, found 1
 gpt_true/09.py:13:1: E302 expected 2 blank lines, found 1
 gpt_true/09.py:17:1: E302 expected 2 blank lines, found 1
@@ -210,88 +210,65 @@ gpt_true/09.py:34:1: E302 expected 2 blank lines, found 1
 gpt_true/09.py:38:1: E302 expected 2 blank lines, found 1
 gpt_true/09.py:69:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-09.py,mypy,0.27,1,"Success: no issues found in 1 source file
+09.py,mypy,0.28,1,"Success: no issues found in 1 source file
 "
-10.py,pylint,0.77,20,"************* Module 10
-gpt_true/10.py:4:13: C0303: Trailing whitespace (trailing-whitespace)
-gpt_true/10.py:5:9: C0303: Trailing whitespace (trailing-whitespace)
+10.py,pylint,0.82,15,"************* Module 10
+gpt_true/10.py:3:11: C0303: Trailing whitespace (trailing-whitespace)
+gpt_true/10.py:4:15: C0303: Trailing whitespace (trailing-whitespace)
 gpt_true/10.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/10.py:1:0: C0103: Module name ""10"" doesn't conform to snake_case naming style (invalid-name)
-gpt_true/10.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/10.py:9:11: E0602: Undefined variable 'math' (undefined-variable)
-gpt_true/10.py:11:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/10.py:13:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
-gpt_true/10.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/10.py:19:10: E0602: Undefined variable 'datetime' (undefined-variable)
-gpt_true/10.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/10.py:24:4: W0612: Unused variable 'helper_function' (unused-variable)
-gpt_true/10.py:27:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/10.py:4:0: W0611: Unused import random (unused-import)
-gpt_true/10.py:5:0: W0611: Unused import os (unused-import)
+gpt_true/10.py:6:0: C0116: Missing function or method docstring (missing-function-docstring)
+gpt_true/10.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+gpt_true/10.py:14:13: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+gpt_true/10.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+gpt_true/10.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
+gpt_true/10.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.03/10 (previous run: 3.03/10, +0.00)
+Your code has been rated at 7.06/10 (previous run: 3.03/10, +4.03)
 
 "
-10.py,pyflakes,0.11,4,"gpt_true/10.py:4:1: 'random' imported but unused
-gpt_true/10.py:5:1: 'os' imported but unused
-gpt_true/10.py:9:12: undefined name 'math'
-gpt_true/10.py:19:11: undefined name 'datetime'
-"
-10.py,flake8,0.21,12,"gpt_true/10.py:4:1: F401 'random' imported but unused
-gpt_true/10.py:4:14: W291 trailing whitespace
-gpt_true/10.py:5:1: F401 'os' imported but unused
-gpt_true/10.py:5:10: W291 trailing whitespace
-gpt_true/10.py:7:1: E302 expected 2 blank lines, found 1
-gpt_true/10.py:9:12: F821 undefined name 'math'
-gpt_true/10.py:11:1: E302 expected 2 blank lines, found 1
-gpt_true/10.py:17:1: E302 expected 2 blank lines, found 1
-gpt_true/10.py:19:11: F821 undefined name 'datetime'
-gpt_true/10.py:22:1: E302 expected 2 blank lines, found 1
-gpt_true/10.py:27:1: E302 expected 2 blank lines, found 1
+10.py,pyflakes,0.11,0,
+10.py,flake8,0.2,8,"gpt_true/10.py:3:12: W291 trailing whitespace
+gpt_true/10.py:4:16: W291 trailing whitespace
+gpt_true/10.py:6:1: E302 expected 2 blank lines, found 1
+gpt_true/10.py:10:1: E302 expected 2 blank lines, found 1
+gpt_true/10.py:20:1: E302 expected 2 blank lines, found 1
+gpt_true/10.py:25:1: E302 expected 2 blank lines, found 1
+gpt_true/10.py:29:1: E302 expected 2 blank lines, found 1
 gpt_true/10.py:52:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-10.py,mypy,0.16,1,"Success: no issues found in 1 source file
+10.py,mypy,0.29,1,"Success: no issues found in 1 source file
 "
-11.py,pylint,0.52,20,"************* Module 11
+11.py,pylint,0.53,14,"************* Module 11
 gpt_true/11.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/11.py:1:0: C0103: Module name ""11"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/11.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/11.py:6:19: E0602: Undefined variable 'years' (undefined-variable)
-gpt_true/11.py:3:16: W0613: Unused argument 'age' (unused-argument)
 gpt_true/11.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
 gpt_true/11.py:12:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/11.py:14:4: E0602: Undefined variable 'myList' (undefined-variable)
 gpt_true/11.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
 gpt_true/11.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/11.py:23:15: E0602: Undefined variable 'z' (undefined-variable)
-gpt_true/11.py:21:24: W0613: Unused argument 'y' (unused-argument)
 gpt_true/11.py:25:0: C0116: Missing function or method docstring (missing-function-docstring)
-gpt_true/11.py:34:17: E1120: No value for argument 'c' in function call (no-value-for-parameter)
-gpt_true/11.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+gpt_true/11.py:54:11: W0718: Catching too general exception Exception (broad-exception-caught)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.25/10 (previous run: 2.25/10, +0.00)
+Your code has been rated at 7.95/10 (previous run: 2.25/10, +5.70)
 
 "
-11.py,pyflakes,0.11,3,"gpt_true/11.py:6:20: undefined name 'years'
-gpt_true/11.py:14:5: undefined name 'myList'
-gpt_true/11.py:23:16: undefined name 'z'
-"
-11.py,flake8,0.2,10,"gpt_true/11.py:6:20: F821 undefined name 'years'
-gpt_true/11.py:8:1: E302 expected 2 blank lines, found 1
+11.py,pyflakes,0.11,0,
+11.py,flake8,0.2,9,"gpt_true/11.py:8:1: E302 expected 2 blank lines, found 1
+gpt_true/11.py:9:80: E501 line too long (81 > 79 characters)
 gpt_true/11.py:12:1: E302 expected 2 blank lines, found 1
-gpt_true/11.py:14:5: F821 undefined name 'myList'
 gpt_true/11.py:17:1: E302 expected 2 blank lines, found 1
 gpt_true/11.py:21:1: E302 expected 2 blank lines, found 1
-gpt_true/11.py:23:16: F821 undefined name 'z'
+gpt_true/11.py:22:80: E501 line too long (82 > 79 characters)
 gpt_true/11.py:25:1: E302 expected 2 blank lines, found 1
-gpt_true/11.py:37:80: E501 line too long (85 > 79 characters)
-gpt_true/11.py:61:1: E305 expected 2 blank lines after class or function definition, found 1
+gpt_true/11.py:40:80: E501 line too long (85 > 79 characters)
+gpt_true/11.py:67:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-11.py,mypy,0.15,1,"Success: no issues found in 1 source file
+11.py,mypy,0.26,1,"Success: no issues found in 1 source file
 "
-12.py,pylint,0.51,10,"************* Module 12
+12.py,pylint,0.52,10,"************* Module 12
 gpt_true/12.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/12.py:1:0: C0103: Module name ""12"" doesn't conform to snake_case naming style (invalid-name)
 gpt_true/12.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
@@ -303,10 +280,10 @@ Your code has been rated at 6.15/10 (previous run: 0.91/10, +5.24)
 
 "
 12.py,pyflakes,0.11,0,
-12.py,flake8,0.21,2,"gpt_true/12.py:9:80: E501 line too long (87 > 79 characters)
+12.py,flake8,0.2,2,"gpt_true/12.py:9:80: E501 line too long (87 > 79 characters)
 gpt_true/12.py:22:1: E305 expected 2 blank lines after class or function definition, found 1
 "
-12.py,mypy,0.28,1,"Success: no issues found in 1 source file
+12.py,mypy,0.27,1,"Success: no issues found in 1 source file
 "
 13.py,pylint,0.52,11,"************* Module 13
 gpt_true/13.py:6:0: C0303: Trailing whitespace (trailing-whitespace)
@@ -320,8 +297,8 @@ gpt_true/13.py:17:11: W0718: Catching too general exception Exception (broad-exc
 Your code has been rated at 5.00/10 (previous run: 0.00/10, +5.00)
 
 "
-13.py,pyflakes,0.12,0,
-13.py,flake8,0.19,3,"gpt_true/13.py:6:1: W293 blank line contains whitespace
+13.py,pyflakes,0.11,0,
+13.py,flake8,0.2,3,"gpt_true/13.py:6:1: W293 blank line contains whitespace
 gpt_true/13.py:10:1: W293 blank line contains whitespace
 gpt_true/13.py:20:1: E305 expected 2 blank lines after class or function definition, found 1
 "
@@ -338,13 +315,13 @@ gpt_true/14.py:6:8: W0612: Unused variable 'a' (unused-variable)
 Your code has been rated at 5.45/10 (previous run: 0.00/10, +5.45)
 
 "
-14.py,pyflakes,0.11,1,"gpt_true/14.py:6:9: local variable 'a' is assigned to but never used
+14.py,pyflakes,0.12,1,"gpt_true/14.py:6:9: local variable 'a' is assigned to but never used
 "
-14.py,flake8,0.2,1,"gpt_true/14.py:6:9: F841 local variable 'a' is assigned to but never used
+14.py,flake8,0.19,1,"gpt_true/14.py:6:9: F841 local variable 'a' is assigned to but never used
 "
-14.py,mypy,0.27,1,"Success: no issues found in 1 source file
+14.py,mypy,0.26,1,"Success: no issues found in 1 source file
 "
-15.py,pylint,0.84,10,"************* Module 15
+15.py,pylint,0.8,10,"************* Module 15
 gpt_true/15.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
 gpt_true/15.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 gpt_true/15.py:1:0: C0103: Module name ""15"" doesn't conform to snake_case naming style (invalid-name)
@@ -355,7 +332,7 @@ gpt_true/15.py:24:11: W0718: Catching too general exception Exception (broad-exc
 Your code has been rated at 7.22/10 (previous run: 2.73/10, +4.49)
 
 "
-15.py,pyflakes,0.11,0,
+15.py,pyflakes,0.1,0,
 15.py,flake8,0.2,3,"gpt_true/15.py:5:1: E302 expected 2 blank lines, found 1
 gpt_true/15.py:16:80: E501 line too long (90 > 79 characters)
 gpt_true/15.py:17:1: W293 blank line contains whitespace
