@@ -1,0 +1,930 @@
+subor,nastroj,cas_vykonania,pocet_chyb,vystup
+./__init__.py,pylint,2025-03-13T14:04:22.291270,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./__init__.py,pyflakes,2025-03-13T14:04:24.062483,0,
+./__init__.py,flake8,2025-03-13T14:04:24.170217,0,
+./__init__.py,mypy,2025-03-13T14:04:24.363141,1,Success: no issues found in 1 source file
+./config.py,pylint,2025-03-13T14:04:24.906417,25,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.config
+config.py:27:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:42:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:59:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:77:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:86:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:96:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:104:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:119:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:135:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:153:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:166:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:184:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:203:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:212:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:222:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:240:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+config.py:340:9: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+config.py:340:9: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+config.py:340:9: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 5.99/10 (previous run: 5.99/10, +0.00)"
+./config.py,pyflakes,2025-03-13T14:04:27.589540,0,
+./config.py,flake8,2025-03-13T14:04:27.728618,0,
+./config.py,mypy,2025-03-13T14:04:28.019243,84,"config.py:27: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:27: note: Possible overload variants:
+config.py:27: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:27: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:27: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:42: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:42: note: Possible overload variants:
+config.py:42: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:42: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:42: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:59: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:59: note: Possible overload variants:
+config.py:59: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:59: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:59: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:77: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:77: note: Possible overload variants:
+config.py:77: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:77: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:77: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:86: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:86: note: Possible overload variants:
+config.py:86: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:86: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:86: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:96: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:96: note: Possible overload variants:
+config.py:96: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:96: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:96: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:104: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:104: note: Possible overload variants:
+config.py:104: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:104: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:104: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:119: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:119: note: Possible overload variants:
+config.py:119: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:119: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:119: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:135: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:135: note: Possible overload variants:
+config.py:135: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:135: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:135: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:153: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:153: note: Possible overload variants:
+config.py:153: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:153: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:153: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:166: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:166: note: Possible overload variants:
+config.py:166: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:166: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:166: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:184: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:184: note: Possible overload variants:
+config.py:184: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:184: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:184: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:203: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:203: note: Possible overload variants:
+config.py:203: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:203: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:203: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:212: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:212: note: Possible overload variants:
+config.py:212: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:212: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:212: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:222: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:222: note: Possible overload variants:
+config.py:222: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:222: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:222: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:240: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+config.py:240: note: Possible overload variants:
+config.py:240: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+config.py:240: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+config.py:240: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+config.py:340: error: X | Y syntax for unions requires Python 3.10  [syntax]
+config.py:350: error: Incompatible return value type (got ""object"", expected ""Union[QobuzConfig, DeezerConfig, SoundcloudConfig, TidalConfig]"")  [return-value]
+config.py:432: error: Need type annotation for ""ret"" (hint: ""ret: set[<type>] = ..."")  [var-annotated]
+Found 19 errors in 1 file (checked 1 source file)"
+./console.py,pylint,2025-03-13T14:04:28.604728,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.console
+console.py:1:0: E0401: Unable to import 'rich.console' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 0.00/10 (previous run: 0.00/10, +0.00)"
+./console.py,pyflakes,2025-03-13T14:04:29.131608,0,
+./console.py,flake8,2025-03-13T14:04:29.241787,0,
+./console.py,mypy,2025-03-13T14:04:29.437337,1,Success: no issues found in 1 source file
+./converter.py,pylint,2025-03-13T14:04:30.002255,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./converter.py,pyflakes,2025-03-13T14:04:32.120331,0,
+./converter.py,flake8,2025-03-13T14:04:32.230066,0,
+./converter.py,mypy,2025-03-13T14:04:32.445385,1,Success: no issues found in 1 source file
+./db.py,pylint,2025-03-13T14:04:32.999535,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.db
+db.py:181:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 9.49/10 (previous run: 9.49/10, +0.00)"
+./db.py,pyflakes,2025-03-13T14:04:34.154175,0,
+./db.py,flake8,2025-03-13T14:04:34.260859,0,
+./db.py,mypy,2025-03-13T14:04:34.468901,8,"db.py:165: error: Cannot override writable attribute ""structure"" with a final one  [misc]
+db.py:174: error: Cannot override writable attribute ""structure"" with a final one  [misc]
+db.py:181: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+db.py:181: note: Possible overload variants:
+db.py:181: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+db.py:181: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+db.py:181: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+Found 3 errors in 1 file (checked 1 source file)"
+./exceptions.py,pylint,2025-03-13T14:04:35.002897,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./exceptions.py,pyflakes,2025-03-13T14:04:35.562923,0,
+./exceptions.py,flake8,2025-03-13T14:04:35.658026,0,
+./exceptions.py,mypy,2025-03-13T14:04:35.845861,1,Success: no issues found in 1 source file
+./filepath_utils.py,pylint,2025-03-13T14:04:36.394104,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.filepath_utils
+filepath_utils.py:3:0: E0401: Unable to import 'pathvalidate' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 7.06/10 (previous run: 7.06/10, +0.00)"
+./filepath_utils.py,pyflakes,2025-03-13T14:04:36.967544,0,
+./filepath_utils.py,flake8,2025-03-13T14:04:37.065365,1,./filepath_utils.py:13:1: W293 blank line contains whitespace
+./filepath_utils.py,mypy,2025-03-13T14:04:37.267560,1,Success: no issues found in 1 source file
+./progress.py,pylint,2025-03-13T14:04:37.448932,12,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.progress
+progress.py:4:0: E0401: Unable to import 'rich.console' (import-error)
+progress.py:5:0: E0401: Unable to import 'rich.live' (import-error)
+progress.py:6:0: E0401: Unable to import 'rich.progress' (import-error)
+progress.py:13:0: E0401: Unable to import 'rich.rule' (import-error)
+progress.py:14:0: E0401: Unable to import 'rich.text' (import-error)
+progress.py:78:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 5.52/10 (previous run: 5.52/10, +0.00)"
+./progress.py,pyflakes,2025-03-13T14:04:38.454435,0,
+./progress.py,flake8,2025-03-13T14:04:38.580064,0,
+./progress.py,mypy,2025-03-13T14:04:38.808131,6,"progress.py:78: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+progress.py:78: note: Possible overload variants:
+progress.py:78: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+progress.py:78: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+progress.py:78: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+Found 1 error in 1 file (checked 1 source file)"
+./test.py,pylint,2025-03-13T14:04:39.366511,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./test.py,pyflakes,2025-03-13T14:04:40.620277,0,
+./test.py,flake8,2025-03-13T14:04:40.728192,7,"./test.py:16:1: E302 expected 2 blank lines, found 1
+./test.py:25:1: E302 expected 2 blank lines, found 1
+./test.py:37:1: E302 expected 2 blank lines, found 1
+./test.py:39:1: W293 blank line contains whitespace
+./test.py:43:1: W293 blank line contains whitespace
+./test.py:51:1: E305 expected 2 blank lines after class or function definition, found 1
+./test.py:52:11: W292 no newline at end of file"
+./test.py,mypy,2025-03-13T14:04:40.935869,1,Success: no issues found in 1 source file
+./client/__init__.py,pylint,2025-03-13T14:04:41.512365,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./client/__init__.py,pyflakes,2025-03-13T14:04:42.831411,0,
+./client/__init__.py,flake8,2025-03-13T14:04:42.965535,0,
+./client/__init__.py,mypy,2025-03-13T14:04:43.208850,1,Success: no issues found in 1 source file
+./client/client.py,pylint,2025-03-13T14:04:43.804925,10,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.client.client
+client/client.py:7:0: E0401: Unable to import 'aiohttp' (import-error)
+client/client.py:8:0: E0401: Unable to import 'aiolimiter' (import-error)
+client/client.py:44:9: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+client/client.py:52:35: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 2.59/10 (previous run: 2.59/10, +0.00)"
+./client/client.py,pyflakes,2025-03-13T14:04:44.812848,0,
+./client/client.py,flake8,2025-03-13T14:04:44.927130,0,
+./client/client.py,mypy,2025-03-13T14:04:45.166793,3,"client/client.py:44: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/client.py:52: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 2 errors in 1 file (checked 1 source file)"
+./client/deezer.py,pylint,2025-03-13T14:04:45.687684,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.client.deezer
+client/deezer.py:6:0: E0401: Unable to import 'deezer' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 9.59/10 (previous run: 9.59/10, +0.00)"
+./client/deezer.py,pyflakes,2025-03-13T14:04:48.656486,0,
+./client/deezer.py,flake8,2025-03-13T14:04:48.771350,0,
+./client/deezer.py,mypy,2025-03-13T14:04:48.990036,1,Success: no issues found in 1 source file
+./client/downloadable.py,pylint,2025-03-13T14:04:49.541669,13,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.client.downloadable
+client/downloadable.py:17:0: E0401: Unable to import 'aiofiles' (import-error)
+client/downloadable.py:18:0: E0401: Unable to import 'aiohttp' (import-error)
+client/downloadable.py:19:0: E0401: Unable to import 'm3u8' (import-error)
+client/downloadable.py:65:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+client/downloadable.py:107:16: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+client/downloadable.py:229:13: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+client/downloadable.py:231:24: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 8.52/10 (previous run: 8.52/10, +0.00)"
+./client/downloadable.py,pyflakes,2025-03-13T14:04:52.396527,0,
+./client/downloadable.py,flake8,2025-03-13T14:04:52.502994,2,"./client/downloadable.py:183:37: E203 whitespace before ':'
+./client/downloadable.py:187:33: W503 line break before binary operator"
+./client/downloadable.py,mypy,2025-03-13T14:04:52.759095,17,"client/downloadable.py:17: error: Library stubs not installed for ""aiofiles""  [import-untyped]
+client/downloadable.py:17: note: Hint: ""python3 -m pip install types-aiofiles""
+client/downloadable.py:17: note: (or run ""mypy --install-types"" to install all missing stub packages)
+client/downloadable.py:17: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+client/downloadable.py:20: error: Library stubs not installed for ""requests""  [import-untyped]
+client/downloadable.py:20: note: Hint: ""python3 -m pip install types-requests""
+client/downloadable.py:47: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+client/downloadable.py:65: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+client/downloadable.py:65: note: Possible overload variants:
+client/downloadable.py:65: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+client/downloadable.py:65: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+client/downloadable.py:65: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+client/downloadable.py:107: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/downloadable.py:229: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/downloadable.py:231: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/downloadable.py:333: error: Cannot assign to a method  [method-assign]
+Found 7 errors in 1 file (checked 1 source file)"
+./client/qobuz.py,pylint,2025-03-13T14:04:53.289294,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.client.qobuz
+client/qobuz.py:10:0: E0401: Unable to import 'aiohttp' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 9.78/10 (previous run: 9.78/10, +0.00)"
+./client/qobuz.py,pyflakes,2025-03-13T14:04:56.168529,0,
+./client/qobuz.py,flake8,2025-03-13T14:04:56.275314,3,"./client/qobuz.py:167:1: W293 blank line contains whitespace
+./client/qobuz.py:396:17: E126 continuation line over-indented for hanging indent
+./client/qobuz.py:397:17: E123 closing bracket does not match indentation of opening bracket's line"
+./client/qobuz.py,mypy,2025-03-13T14:04:56.516247,7,"client/qobuz.py:91: error: Item ""None"" of ""Optional[Match[Any]]"" has no attribute ""group""  [union-attr]
+client/qobuz.py:111: error: Item ""None"" of ""Optional[Match[Any]]"" has no attribute ""group""  [union-attr]
+client/qobuz.py:115: error: Incompatible types in assignment (expression has type ""str"", target has type ""list[Any]"")  [assignment]
+client/qobuz.py:119: error: Argument 1 to ""list"" has incompatible type ""_odict_values[Any, list[Any]]""; expected ""Iterable[str]""  [arg-type]
+client/qobuz.py:431: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aenter__""  [union-attr]
+client/qobuz.py:431: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aexit__""  [union-attr]
+Found 6 errors in 1 file (checked 1 source file)"
+./client/soundcloud.py,pylint,2025-03-13T14:04:57.102846,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./client/soundcloud.py,pyflakes,2025-03-13T14:05:00.025820,0,
+./client/soundcloud.py,flake8,2025-03-13T14:05:00.150359,0,
+./client/soundcloud.py,mypy,2025-03-13T14:05:00.382045,1,Success: no issues found in 1 source file
+./client/tidal.py,pylint,2025-03-13T14:05:00.944553,10,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.client.tidal
+client/tidal.py:9:0: E0401: Unable to import 'aiohttp' (import-error)
+client/tidal.py:245:74: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+client/tidal.py:313:47: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+client/tidal.py:341:20: E1205: Too many arguments for logging format string (logging-too-many-args)
+
+------------------------------------------------------------------
+Your code has been rated at 8.83/10 (previous run: 8.83/10, +0.00)"
+./client/tidal.py,pyflakes,2025-03-13T14:05:03.835265,0,
+./client/tidal.py,flake8,2025-03-13T14:05:03.949645,0,
+./client/tidal.py,mypy,2025-03-13T14:05:04.174976,7,"client/tidal.py:245: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/tidal.py:313: error: X | Y syntax for unions requires Python 3.10  [syntax]
+client/tidal.py:320: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aenter__""  [union-attr]
+client/tidal.py:320: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aexit__""  [union-attr]
+client/tidal.py:338: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aenter__""  [union-attr]
+client/tidal.py:338: error: Item ""nullcontext[Any]"" of ""Union[Any, nullcontext[Any]]"" has no attribute ""__aexit__""  [union-attr]
+Found 6 errors in 1 file (checked 1 source file)"
+./media/__init__.py,pylint,2025-03-13T14:05:04.714049,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./media/__init__.py,pyflakes,2025-03-13T14:05:06.308251,0,
+./media/__init__.py,flake8,2025-03-13T14:05:06.407324,0,
+./media/__init__.py,mypy,2025-03-13T14:05:06.599194,1,Success: no issues found in 1 source file
+./media/album.py,pylint,2025-03-13T14:05:07.147385,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.album
+media/album.py:21:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/album.py:46:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/album.py:53:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.76/10 (previous run: 7.76/10, +0.00)"
+./media/album.py,pyflakes,2025-03-13T14:05:10.167125,0,
+./media/album.py,flake8,2025-03-13T14:05:10.270434,0,
+./media/album.py,mypy,2025-03-13T14:05:10.470093,12,"media/album.py:21: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/album.py:21: note: Possible overload variants:
+media/album.py:21: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/album.py:21: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/album.py:21: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/album.py:46: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/album.py:46: note: Possible overload variants:
+media/album.py:46: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/album.py:46: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/album.py:46: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/album.py:53: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 3 errors in 1 file (checked 1 source file)"
+./media/artist.py,pylint,2025-03-13T14:05:11.018368,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.artist
+media/artist.py:23:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/artist.py:177:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/artist.py:184:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 8.73/10 (previous run: 8.73/10, +0.00)"
+./media/artist.py,pyflakes,2025-03-13T14:05:13.929607,0,
+./media/artist.py,flake8,2025-03-13T14:05:14.039223,5,"./media/artist.py:69:17: W503 line break before binary operator
+./media/artist.py:70:17: W503 line break before binary operator
+./media/artist.py:71:17: W503 line break before binary operator
+./media/artist.py:72:17: W503 line break before binary operator
+./media/artist.py:174:31: E203 whitespace before ':'"
+./media/artist.py,mypy,2025-03-13T14:05:14.245657,18,"media/artist.py:23: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/artist.py:23: note: Possible overload variants:
+media/artist.py:23: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/artist.py:23: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/artist.py:23: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/artist.py:54: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/artist.py:91: error: Incompatible types in assignment (expression has type ""filter[Album]"", variable has type ""list[Album]"")  [assignment]
+media/artist.py:93: error: Incompatible types in assignment (expression has type ""filter[Album]"", variable has type ""list[Album]"")  [assignment]
+media/artist.py:95: error: Incompatible types in assignment (expression has type ""filter[Album]"", variable has type ""list[Album]"")  [assignment]
+media/artist.py:97: error: Incompatible types in assignment (expression has type ""filter[Album]"", variable has type ""list[Album]"")  [assignment]
+media/artist.py:132: error: Incompatible types in assignment (expression has type ""Union[int, float]"", variable has type ""int"")  [assignment]
+media/artist.py:177: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/artist.py:177: note: Possible overload variants:
+media/artist.py:177: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/artist.py:177: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/artist.py:177: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/artist.py:184: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 9 errors in 1 file (checked 1 source file)"
+./media/artwork.py,pylint,2025-03-13T14:05:14.797268,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.artwork
+media/artwork.py:6:0: E0401: Unable to import 'aiohttp' (import-error)
+media/artwork.py:33:11: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/artwork.py:33:23: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.79/10 (previous run: 7.79/10, +0.00)"
+./media/artwork.py,pyflakes,2025-03-13T14:05:17.658842,0,
+./media/artwork.py,flake8,2025-03-13T14:05:17.761086,0,
+./media/artwork.py,mypy,2025-03-13T14:05:17.966686,11,"media/artwork.py:33: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/artwork.py:69: error: CoverEntry? object is not iterable  [misc]
+media/artwork.py:70: error: Cannot determine type of ""saved_cover_path""  [has-type]
+media/artwork.py:72: error: Cannot determine type of ""l_url""  [has-type]
+media/artwork.py:74: error: Cannot determine type of ""l_url""  [has-type]
+media/artwork.py:80: error: CoverEntry? object is not iterable  [misc]
+media/artwork.py:81: error: Cannot determine type of ""embed_cover_path""  [has-type]
+media/artwork.py:82: error: Cannot determine type of ""embed_url""  [has-type]
+media/artwork.py:86: error: Cannot determine type of ""embed_url""  [has-type]
+media/artwork.py:88: error: Cannot determine type of ""embed_url""  [has-type]
+Found 10 errors in 1 file (checked 1 source file)"
+./media/label.py,pylint,2025-03-13T14:05:18.526267,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.label
+media/label.py:17:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/label.py:58:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/label.py:65:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.12/10 (previous run: 7.12/10, +0.00)"
+./media/label.py,pyflakes,2025-03-13T14:05:21.099464,0,
+./media/label.py,flake8,2025-03-13T14:05:21.216615,1,./media/label.py:55:31: E203 whitespace before ':'
+./media/label.py,mypy,2025-03-13T14:05:21.412009,12,"media/label.py:17: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/label.py:17: note: Possible overload variants:
+media/label.py:17: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/label.py:17: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/label.py:17: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/label.py:58: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/label.py:58: note: Possible overload variants:
+media/label.py:58: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/label.py:58: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/label.py:58: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/label.py:65: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 3 errors in 1 file (checked 1 source file)"
+./media/media.py,pylint,2025-03-13T14:05:21.958663,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.media
+media/media.py:30:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 6.67/10 (previous run: 6.67/10, +0.00)"
+./media/media.py,pyflakes,2025-03-13T14:05:22.513007,0,
+./media/media.py,flake8,2025-03-13T14:05:22.620608,0,
+./media/media.py,mypy,2025-03-13T14:05:22.828753,2,"media/media.py:30: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 1 error in 1 file (checked 1 source file)"
+./media/playlist.py,pylint,2025-03-13T14:05:23.377976,22,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.playlist
+media/playlist.py:10:0: E0401: Unable to import 'aiohttp' (import-error)
+media/playlist.py:11:0: E0401: Unable to import 'rich.text' (import-error)
+media/playlist.py:34:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/playlist.py:44:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:95:68: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:106:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/playlist.py:142:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/playlist.py:149:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:181:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/playlist.py:185:21: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:189:5: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/playlist.py:206:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:226:36: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:234:32: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:270:15: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/playlist.py:390:15: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 6.31/10 (previous run: 6.31/10, +0.00)"
+./media/playlist.py,pyflakes,2025-03-13T14:05:26.702154,0,
+./media/playlist.py,flake8,2025-03-13T14:05:26.824955,1,./media/playlist.py:139:31: E203 whitespace before ':'
+./media/playlist.py,mypy,2025-03-13T14:05:27.069970,37,"media/playlist.py:34: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/playlist.py:34: note: Possible overload variants:
+media/playlist.py:34: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:34: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/playlist.py:34: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:44: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:95: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:106: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/playlist.py:106: note: Possible overload variants:
+media/playlist.py:106: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:106: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/playlist.py:106: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:142: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/playlist.py:142: note: Possible overload variants:
+media/playlist.py:142: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:142: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/playlist.py:142: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:149: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:181: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/playlist.py:181: note: Possible overload variants:
+media/playlist.py:181: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:181: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/playlist.py:181: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:185: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:189: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/playlist.py:189: note: Possible overload variants:
+media/playlist.py:189: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:189: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/playlist.py:189: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/playlist.py:206: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:226: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:234: error: Name ""results"" already defined on line 226  [no-redef]
+media/playlist.py:234: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:270: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/playlist.py:342: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+media/playlist.py:390: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 15 errors in 1 file (checked 1 source file)"
+./media/semaphore.py,pylint,2025-03-13T14:05:27.610004,8,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.semaphore
+media/semaphore.py:7:19: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/semaphore.py:10:53: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 4.44/10 (previous run: 4.44/10, +0.00)"
+./media/semaphore.py,pyflakes,2025-03-13T14:05:29.979430,0,
+./media/semaphore.py,flake8,2025-03-13T14:05:30.083224,0,
+./media/semaphore.py,mypy,2025-03-13T14:05:30.273246,3,"media/semaphore.py:7: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/semaphore.py:10: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 2 errors in 1 file (checked 1 source file)"
+./media/track.py,pylint,2025-03-13T14:05:30.806412,14,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.media.track
+media/track.py:21:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/track.py:28:16: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/track.py:113:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/track.py:122:16: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/track.py:124:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/track.py:174:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+media/track.py:187:31: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+media/track.py:260:68: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.45/10 (previous run: 7.45/10, +0.00)"
+./media/track.py,pyflakes,2025-03-13T14:05:33.936972,0,
+./media/track.py,flake8,2025-03-13T14:05:34.043490,0,
+./media/track.py,mypy,2025-03-13T14:05:34.265971,21,"media/track.py:21: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/track.py:21: note: Possible overload variants:
+media/track.py:21: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/track.py:21: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/track.py:21: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/track.py:28: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/track.py:113: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/track.py:113: note: Possible overload variants:
+media/track.py:113: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/track.py:113: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/track.py:113: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/track.py:122: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/track.py:124: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/track.py:174: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+media/track.py:174: note: Possible overload variants:
+media/track.py:174: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+media/track.py:174: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+media/track.py:174: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+media/track.py:187: error: X | Y syntax for unions requires Python 3.10  [syntax]
+media/track.py:260: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 8 errors in 1 file (checked 1 source file)"
+./metadata/__init__.py,pylint,2025-03-13T14:05:34.800911,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./metadata/__init__.py,pyflakes,2025-03-13T14:05:36.100092,0,
+./metadata/__init__.py,flake8,2025-03-13T14:05:36.207479,0,
+./metadata/__init__.py,mypy,2025-03-13T14:05:36.405373,1,Success: no issues found in 1 source file
+./metadata/album.py,pylint,2025-03-13T14:05:36.941704,8,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.album
+metadata/album.py:21:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/album.py:33:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 9.56/10 (previous run: 9.56/10, +0.00)"
+./metadata/album.py,pyflakes,2025-03-13T14:05:38.368935,0,
+./metadata/album.py,flake8,2025-03-13T14:05:38.497030,2,"./metadata/album.py:80:1: W293 blank line contains whitespace
+./metadata/album.py:110:13: W503 line break before binary operator"
+./metadata/album.py,mypy,2025-03-13T14:05:38.765685,20,"metadata/album.py:21: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/album.py:21: note: Possible overload variants:
+metadata/album.py:21: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/album.py:21: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/album.py:21: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/album.py:33: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/album.py:33: note: Possible overload variants:
+metadata/album.py:33: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/album.py:33: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/album.py:33: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/album.py:119: error: Unsupported left operand type for | (""type[int]"")  [operator]
+metadata/album.py:122: error: Unsupported left operand type for | (""type[list[_T]]"")  [operator]
+metadata/album.py:230: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:232: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:237: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:238: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:241: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:244: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/album.py:381: error: Unsupported left operand type for | (""type[str]"")  [operator]
+Found 11 errors in 1 file (checked 1 source file)"
+./metadata/artist.py,pylint,2025-03-13T14:05:39.332144,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.artist
+metadata/artist.py:9:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)"
+./metadata/artist.py,pyflakes,2025-03-13T14:05:40.016866,0,
+./metadata/artist.py,flake8,2025-03-13T14:05:40.117602,0,
+./metadata/artist.py,mypy,2025-03-13T14:05:40.310042,6,"metadata/artist.py:9: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/artist.py:9: note: Possible overload variants:
+metadata/artist.py:9: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/artist.py:9: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/artist.py:9: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+Found 1 error in 1 file (checked 1 source file)"
+./metadata/covers.py,pylint,2025-03-13T14:05:40.847730,10,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.covers
+metadata/covers.py:6:28: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/covers.py:6:40: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/covers.py:18:40: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/covers.py:18:58: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.62/10 (previous run: 7.62/10, +0.00)"
+./metadata/covers.py,pyflakes,2025-03-13T14:05:41.401007,0,
+./metadata/covers.py,flake8,2025-03-13T14:05:41.512323,1,./metadata/covers.py:106:46: E203 whitespace before ':'
+./metadata/covers.py,mypy,2025-03-13T14:05:41.730415,33,"metadata/covers.py:6: error: Type expected within [...]  [misc]
+metadata/covers.py:6: error: Invalid type alias: expression is not a valid type  [valid-type]
+metadata/covers.py:6: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/covers.py:7: error: Variable ""streamrip.metadata.covers.Covers.CoverEntry"" is not valid as a type  [valid-type]
+metadata/covers.py:7: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+metadata/covers.py:18: error: X | Y syntax for unions requires Python 3.10  [syntax]
+metadata/covers.py:38: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:38: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:41: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:42: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:43: error: Cannot determine type of ""size""  [has-type]
+metadata/covers.py:43: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:49: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:50: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:52: error: Variable ""streamrip.metadata.covers.Covers.CoverEntry"" is not valid as a type  [valid-type]
+metadata/covers.py:52: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+metadata/covers.py:53: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:54: error: Cannot determine type of ""u""  [has-type]
+metadata/covers.py:55: error: Cannot determine type of ""s""  [has-type]
+metadata/covers.py:55: error: Cannot determine type of ""u""  [has-type]
+metadata/covers.py:55: error: Cannot determine type of ""p""  [has-type]
+metadata/covers.py:100: error: Variable ""streamrip.metadata.covers.Covers.CoverEntry"" is not valid as a type  [valid-type]
+metadata/covers.py:100: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#variables-vs-type-aliases
+metadata/covers.py:102: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:103: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:104: error: Cannot determine type of ""url""  [has-type]
+metadata/covers.py:104: error: Cannot determine type of ""path""  [has-type]
+metadata/covers.py:106: error: CoverEntry? object is not iterable  [misc]
+metadata/covers.py:107: error: Cannot determine type of ""u""  [has-type]
+metadata/covers.py:108: error: Cannot determine type of ""s""  [has-type]
+metadata/covers.py:108: error: Cannot determine type of ""u""  [has-type]
+metadata/covers.py:108: error: Cannot determine type of ""p""  [has-type]
+Found 29 errors in 1 file (checked 1 source file)"
+./metadata/label.py,pylint,2025-03-13T14:05:42.293439,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.label
+metadata/label.py:9:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 7.22/10 (previous run: 7.22/10, +0.00)"
+./metadata/label.py,pyflakes,2025-03-13T14:05:42.961885,0,
+./metadata/label.py,flake8,2025-03-13T14:05:43.068396,0,
+./metadata/label.py,mypy,2025-03-13T14:05:43.258453,6,"metadata/label.py:9: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/label.py:9: note: Possible overload variants:
+metadata/label.py:9: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/label.py:9: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/label.py:9: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+Found 1 error in 1 file (checked 1 source file)"
+./metadata/playlist.py,pylint,2025-03-13T14:05:43.816170,8,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.playlist
+metadata/playlist.py:43:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/playlist.py:46:12: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 8.59/10 (previous run: 8.59/10, +0.00)"
+./metadata/playlist.py,pyflakes,2025-03-13T14:05:44.825475,0,
+./metadata/playlist.py,flake8,2025-03-13T14:05:44.941988,0,
+./metadata/playlist.py,mypy,2025-03-13T14:05:45.147081,7,"metadata/playlist.py:43: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/playlist.py:43: note: Possible overload variants:
+metadata/playlist.py:43: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/playlist.py:43: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/playlist.py:43: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/playlist.py:46: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 2 errors in 1 file (checked 1 source file)"
+./metadata/search_results.py,pylint,2025-03-13T14:05:45.687608,15,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.search_results
+metadata/search_results.py:32:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:65:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:70:19: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/search_results.py:111:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:117:19: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/search_results.py:164:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:185:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:230:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/search_results.py:273:32: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 7.17/10 (previous run: 7.17/10, +0.00)"
+./metadata/search_results.py,pyflakes,2025-03-13T14:05:46.713672,0,
+./metadata/search_results.py,flake8,2025-03-13T14:05:46.823755,38,"./metadata/search_results.py:52:13: W503 line break before binary operator
+./metadata/search_results.py:53:13: W503 line break before binary operator
+./metadata/search_results.py:54:13: W503 line break before binary operator
+./metadata/search_results.py:55:13: W503 line break before binary operator
+./metadata/search_results.py:57:17: W503 line break before binary operator
+./metadata/search_results.py:59:13: W503 line break before binary operator
+./metadata/search_results.py:88:13: W503 line break before binary operator
+./metadata/search_results.py:89:13: W503 line break before binary operator
+./metadata/search_results.py:90:13: W503 line break before binary operator
+./metadata/search_results.py:92:17: W503 line break before binary operator
+./metadata/search_results.py:94:13: W503 line break before binary operator
+./metadata/search_results.py:101:13: W503 line break before binary operator
+./metadata/search_results.py:102:13: W503 line break before binary operator
+./metadata/search_results.py:103:13: W503 line break before binary operator
+./metadata/search_results.py:104:13: W503 line break before binary operator
+./metadata/search_results.py:105:13: W503 line break before binary operator
+./metadata/search_results.py:106:13: W503 line break before binary operator
+./metadata/search_results.py:136:13: W503 line break before binary operator
+./metadata/search_results.py:137:13: W503 line break before binary operator
+./metadata/search_results.py:138:13: W503 line break before binary operator
+./metadata/search_results.py:140:17: W503 line break before binary operator
+./metadata/search_results.py:142:13: W503 line break before binary operator
+./metadata/search_results.py:146:13: W503 line break before binary operator
+./metadata/search_results.py:147:13: W503 line break before binary operator
+./metadata/search_results.py:154:13: W503 line break before binary operator
+./metadata/search_results.py:155:13: W503 line break before binary operator
+./metadata/search_results.py:156:13: W503 line break before binary operator
+./metadata/search_results.py:157:13: W503 line break before binary operator
+./metadata/search_results.py:158:13: W503 line break before binary operator
+./metadata/search_results.py:159:13: W503 line break before binary operator
+./metadata/search_results.py:214:13: W503 line break before binary operator
+./metadata/search_results.py:215:13: W503 line break before binary operator
+./metadata/search_results.py:216:13: W503 line break before binary operator
+./metadata/search_results.py:217:13: W503 line break before binary operator
+./metadata/search_results.py:221:13: W503 line break before binary operator
+./metadata/search_results.py:222:13: W503 line break before binary operator
+./metadata/search_results.py:223:13: W503 line break before binary operator
+./metadata/search_results.py:224:13: W503 line break before binary operator"
+./metadata/search_results.py,mypy,2025-03-13T14:05:47.048950,38,"metadata/search_results.py:32: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:32: note: Possible overload variants:
+metadata/search_results.py:32: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:32: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:32: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:65: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:65: note: Possible overload variants:
+metadata/search_results.py:65: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:65: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:65: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:70: error: X | Y syntax for unions requires Python 3.10  [syntax]
+metadata/search_results.py:111: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:111: note: Possible overload variants:
+metadata/search_results.py:111: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:111: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:111: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:117: error: X | Y syntax for unions requires Python 3.10  [syntax]
+metadata/search_results.py:164: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:164: note: Possible overload variants:
+metadata/search_results.py:164: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:164: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:164: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:185: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:185: note: Possible overload variants:
+metadata/search_results.py:185: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:185: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:185: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:230: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/search_results.py:230: note: Possible overload variants:
+metadata/search_results.py:230: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:230: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/search_results.py:230: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/search_results.py:239: error: Incompatible types in assignment (expression has type ""type[AlbumSummary]"", variable has type ""type[TrackSummary]"")  [assignment]
+metadata/search_results.py:241: error: Incompatible types in assignment (expression has type ""type[LabelSummary]"", variable has type ""type[TrackSummary]"")  [assignment]
+metadata/search_results.py:243: error: Incompatible types in assignment (expression has type ""type[ArtistSummary]"", variable has type ""type[TrackSummary]"")  [assignment]
+metadata/search_results.py:245: error: Incompatible types in assignment (expression has type ""type[PlaylistSummary]"", variable has type ""type[TrackSummary]"")  [assignment]
+metadata/search_results.py:273: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 13 errors in 1 file (checked 1 source file)"
+./metadata/tagger.py,pylint,2025-03-13T14:05:47.594544,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.tagger
+metadata/tagger.py:5:0: E0401: Unable to import 'aiofiles' (import-error)
+metadata/tagger.py:176:65: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+metadata/tagger.py:241:63: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+
+------------------------------------------------------------------
+Your code has been rated at 8.91/10 (previous run: 8.91/10, +0.00)"
+./metadata/tagger.py,pyflakes,2025-03-13T14:05:49.336100,0,
+./metadata/tagger.py,flake8,2025-03-13T14:05:49.447895,0,
+./metadata/tagger.py,mypy,2025-03-13T14:05:49.657919,10,"metadata/tagger.py:5: error: Library stubs not installed for ""aiofiles""  [import-untyped]
+metadata/tagger.py:5: note: Hint: ""python3 -m pip install types-aiofiles""
+metadata/tagger.py:5: note: (or run ""mypy --install-types"" to install all missing stub packages)
+metadata/tagger.py:5: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+metadata/tagger.py:151: error: Incompatible types in assignment (expression has type ""Optional[str]"", variable has type ""str"")  [assignment]
+metadata/tagger.py:168: error: Incompatible types in assignment (expression has type ""bytes"", variable has type ""list[tuple[int, int]]"")  [assignment]
+metadata/tagger.py:170: error: Incompatible types in assignment (expression has type ""Optional[str]"", variable has type ""list[tuple[int, int]]"")  [assignment]
+metadata/tagger.py:176: error: X | Y syntax for unions requires Python 3.10  [syntax]
+metadata/tagger.py:241: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 6 errors in 1 file (checked 1 source file)"
+./metadata/track.py,pylint,2025-03-13T14:05:50.194282,8,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.metadata.track
+metadata/track.py:13:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+metadata/track.py:24:1: E1123: Unexpected keyword argument 'slots' in function call (unexpected-keyword-arg)
+
+------------------------------------------------------------------
+Your code has been rated at 9.12/10 (previous run: 9.12/10, +0.00)"
+./metadata/track.py,pyflakes,2025-03-13T14:05:51.216225,0,
+./metadata/track.py,flake8,2025-03-13T14:05:51.330417,0,
+./metadata/track.py,mypy,2025-03-13T14:05:51.542522,18,"metadata/track.py:13: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/track.py:13: note: Possible overload variants:
+metadata/track.py:13: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/track.py:13: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/track.py:13: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/track.py:24: error: No overload variant of ""dataclass"" matches argument type ""bool""  [call-overload]
+metadata/track.py:24: note: Possible overload variants:
+metadata/track.py:24: note:     def dataclass(None, /) -> Callable[[type[_T]], type[_T]]
+metadata/track.py:24: note:     def [_T] dataclass(type[_T], /) -> type[_T]
+metadata/track.py:24: note:     def dataclass(*, init: bool = ..., repr: bool = ..., eq: bool = ..., order: bool = ..., unsafe_hash: bool = ..., frozen: bool = ...) -> Callable[[type[_T]], type[_T]]
+metadata/track.py:46: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/track.py:47: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/track.py:53: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/track.py:65: error: Unsupported left operand type for | (""type[int]"")  [operator]
+metadata/track.py:66: error: Unsupported left operand type for | (""type[int]"")  [operator]
+metadata/track.py:125: error: Unsupported left operand type for | (""type[str]"")  [operator]
+metadata/track.py:196: error: Incompatible types in assignment (expression has type ""None"", variable has type ""int"")  [assignment]
+Found 9 errors in 1 file (checked 1 source file)"
+./metadata/util.py,pylint,2025-03-13T14:05:52.115352,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./metadata/util.py,pyflakes,2025-03-13T14:05:53.015683,0,
+./metadata/util.py,flake8,2025-03-13T14:05:53.124505,0,
+./metadata/util.py,mypy,2025-03-13T14:05:53.346059,2,"metadata/util.py:30: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 1 error in 1 file (checked 1 source file)"
+./rip/__init__.py,pylint,2025-03-13T14:05:53.899971,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./rip/__init__.py,pyflakes,2025-03-13T14:05:55.690440,0,
+./rip/__init__.py,flake8,2025-03-13T14:05:55.811435,0,
+./rip/__init__.py,mypy,2025-03-13T14:05:56.010835,1,Success: no issues found in 1 source file
+./rip/cli.py,pylint,2025-03-13T14:05:56.610117,23,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.rip.cli
+rip/cli.py:10:0: E0401: Unable to import 'aiofiles' (import-error)
+rip/cli.py:11:0: E0401: Unable to import 'aiohttp' (import-error)
+rip/cli.py:13:0: E0401: Unable to import 'click_help_colors' (import-error)
+rip/cli.py:14:0: E0401: Unable to import 'rich.logging' (import-error)
+rip/cli.py:15:0: E0401: Unable to import 'rich.markdown' (import-error)
+rip/cli.py:16:0: E0401: Unable to import 'rich.prompt' (import-error)
+rip/cli.py:17:0: E0401: Unable to import 'rich.traceback' (import-error)
+rip/cli.py:304:4: E0401: Unable to import 'rich.table' (import-error)
+rip/cli.py:421:51: E1131: unsupported operand type(s) for | (unsupported-binary-operation)
+rip/cli.py:439:4: E1120: No value for argument 'ctx' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'config_path' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'folder' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'no_db' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'quality' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'codec' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'no_progress' in function call (no-value-for-parameter)
+rip/cli.py:439:4: E1120: No value for argument 'verbose' in function call (no-value-for-parameter)
+
+------------------------------------------------------------------
+Your code has been rated at 5.60/10 (previous run: 5.60/10, +0.00)"
+./rip/cli.py,pyflakes,2025-03-13T14:05:59.722304,0,
+./rip/cli.py,flake8,2025-03-13T14:05:59.830841,0,
+./rip/cli.py,mypy,2025-03-13T14:06:00.078039,9,"rip/cli.py:10: error: Library stubs not installed for ""aiofiles""  [import-untyped]
+rip/cli.py:10: note: Hint: ""python3 -m pip install types-aiofiles""
+rip/cli.py:10: note: (or run ""mypy --install-types"" to install all missing stub packages)
+rip/cli.py:10: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+rip/cli.py:164: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+rip/cli.py:209: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+rip/cli.py:306: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+rip/cli.py:421: error: X | Y syntax for unions requires Python 3.10  [syntax]
+Found 2 errors in 1 file (checked 1 source file)"
+./rip/main.py,pylint,2025-03-13T14:06:00.558322,9,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.rip.main
+rip/main.py:6:0: E0401: Unable to import 'aiofiles' (import-error)
+rip/main.py:180:12: E0401: Unable to import 'pick' (import-error)
+rip/main.py:198:12: E0401: Unable to import 'simple_term_menu' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 9.01/10 (previous run: 9.01/10, +0.00)"
+./rip/main.py,pyflakes,2025-03-13T14:06:03.470216,0,
+./rip/main.py,flake8,2025-03-13T14:06:03.592299,4,"./rip/main.py:31:1: W191 indentation contains tabs
+./rip/main.py:31:1: E101 indentation contains mixed spaces and tabs
+./rip/main.py:31:2: E117 over-indented
+./rip/main.py:33:1: E302 expected 2 blank lines, found 1"
+./rip/main.py,mypy,2025-03-13T14:06:03.828967,12,"rip/main.py:6: error: Library stubs not installed for ""aiofiles""  [import-untyped]
+rip/main.py:6: note: Hint: ""python3 -m pip install types-aiofiles""
+rip/main.py:6: note: (or run ""mypy --install-types"" to install all missing stub packages)
+rip/main.py:6: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+rip/main.py:63: error: Incompatible types in assignment (expression has type ""Dummy"", variable has type ""Downloads"")  [assignment]
+rip/main.py:68: error: Incompatible types in assignment (expression has type ""Dummy"", variable has type ""Failed"")  [assignment]
+rip/main.py:101: error: Incompatible types in assignment (expression has type ""PendingAlbum"", variable has type ""PendingSingle"")  [assignment]
+rip/main.py:103: error: Incompatible types in assignment (expression has type ""PendingPlaylist"", variable has type ""PendingSingle"")  [assignment]
+rip/main.py:105: error: Incompatible types in assignment (expression has type ""PendingLabel"", variable has type ""PendingSingle"")  [assignment]
+rip/main.py:107: error: Incompatible types in assignment (expression has type ""PendingArtist"", variable has type ""PendingSingle"")  [assignment]
+rip/main.py:158: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Found 7 errors in 1 file (checked 1 source file)"
+./rip/parse_url.py,pylint,2025-03-13T14:06:04.317365,5,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)"
+./rip/parse_url.py,pyflakes,2025-03-13T14:06:06.277393,0,
+./rip/parse_url.py,flake8,2025-03-13T14:06:06.402514,0,
+./rip/parse_url.py,mypy,2025-03-13T14:06:06.647655,4,"rip/parse_url.py:198: error: Argument 1 of ""into_pending"" is incompatible with supertype ""URL""; supertype defines the argument type as ""Client""  [override]
+rip/parse_url.py:198: note: This violates the Liskov substitution principle
+rip/parse_url.py:198: note: See https://mypy.readthedocs.io/en/stable/common_issues.html#incompatible-overrides
+Found 1 error in 1 file (checked 1 source file)"
+./rip/prompter.py,pylint,2025-03-13T14:06:07.144401,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.rip.prompter
+rip/prompter.py:8:0: E0401: Unable to import 'rich.prompt' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 9.66/10 (previous run: 9.66/10, +0.00)"
+./rip/prompter.py,pyflakes,2025-03-13T14:06:09.777857,0,
+./rip/prompter.py,flake8,2025-03-13T14:06:09.882738,0,
+./rip/prompter.py,mypy,2025-03-13T14:06:10.093837,2,"rip/prompter.py:218: error: Cannot instantiate abstract class ""CredentialPrompter"" with abstract attributes ""has_creds"", ""prompt_and_login"", ""save"" and ""type_check_client""  [abstract]
+Found 1 error in 1 file (checked 1 source file)"
+./rip/user_paths.py,pylint,2025-03-13T14:06:10.573964,7,"************* Module /home/tomas/Stiahnuté/streamrip/.pylintrc
+.pylintrc:1:0: F0011: error while parsing the configuration: While reading from '/home/tomas/Stiahnuté/streamrip/.pylintrc' [line 417]: section 'MESSAGES CONTROL' already exists (config-parse-error)
+************* Module streamrip.rip.user_paths
+rip/user_paths.py:4:0: E0401: Unable to import 'appdirs' (import-error)
+
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 6.43/10, +0.00)"
+./rip/user_paths.py,pyflakes,2025-03-13T14:06:11.350797,0,
+./rip/user_paths.py,flake8,2025-03-13T14:06:11.466746,0,
+./rip/user_paths.py,mypy,2025-03-13T14:06:11.657107,1,Success: no issues found in 1 source file
